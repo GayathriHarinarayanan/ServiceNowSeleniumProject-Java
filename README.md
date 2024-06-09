@@ -1,5 +1,5 @@
 This project automates the steps to create a new incident on ServiceNow instance.  
------------What was very challenging in this project?--------------------------- 
+-----------What was very challenging in this project?---------------------------    
 Handling shadow root DOMs.   
 -----------How did I reach shadow root elements in my project?------------------  
 I used getShadowRoot() method of SearchContext class, which is available from Selenium 4.  
