@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite001]">
+  <test thread-count="5" name="Test001(failed)">
+    <classes>
+      <class name="pagetests.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testFilterOfNavigator"/>
+          <include name="setUp"/>
+          <include name="resultCheck"/>
+          <include name="testallMenu"/>
+        </methods>
+      </class> <!-- pagetests.HomePageTest -->
+      <class name="pagetests.IncidentPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="resultCheck"/>
+          <include name="testSubmitIncident"/>
+          <include name="testCreateNewIncident"/>
+        </methods>
+      </class> <!-- pagetests.IncidentPageTest -->
+      <class name="pagetests.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testLogin"/>
+          <include name="setUp"/>
+          <include name="launchURL"/>
+          <include name="resultCheck"/>
+        </methods>
+      </class> <!-- pagetests.LoginPageTest -->
+    </classes>
+  </test> <!-- Test001(failed) -->
+</suite> <!-- Failed suite [Suite001] -->
